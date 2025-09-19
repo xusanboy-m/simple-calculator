@@ -47,6 +47,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Calculator design tokens
+        calc: {
+          display: "hsl(var(--calc-display))",
+          "display-text": "hsl(var(--calc-display-text))",
+          "button-digit": "hsl(var(--calc-button-digit))",
+          "button-digit-hover": "hsl(var(--calc-button-digit-hover))",
+          "button-digit-text": "hsl(var(--calc-button-digit-text))",
+          "button-operator": "hsl(var(--calc-button-operator))",
+          "button-operator-hover": "hsl(var(--calc-button-operator-hover))",
+          "button-operator-text": "hsl(var(--calc-button-operator-text))",
+          "button-special": "hsl(var(--calc-button-special))",
+          "button-special-hover": "hsl(var(--calc-button-special-hover))",
+          "button-special-text": "hsl(var(--calc-button-special-text))",
+          shadow: "hsl(var(--calc-shadow))",
+          "shadow-hover": "hsl(var(--calc-shadow-hover))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
